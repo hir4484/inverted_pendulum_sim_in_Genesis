@@ -14,7 +14,7 @@ inv-pend_robo_PD_control.py<br>
 　倒立振子の model file を、genesis の環境で倒立制御(PD制御)するための実行ファイルです。<br>
 pendulum_robot_renew (folder)<br>
 　モデルファイルです。<br>
-　このフォルダーのまま、下記記載の様に通り該当する階層に copy して使用してください。<br>
+　このフォルダーのまま、下記記載の様に該当する階層に copy して使用してください。<br>
 ![sample_pic2.png](./sample_pic2.png)<br>
 <br>
 Copyright (c) 2025/Aug/14, hir (hir4484@gmail.dom). Available under the MIT License.
