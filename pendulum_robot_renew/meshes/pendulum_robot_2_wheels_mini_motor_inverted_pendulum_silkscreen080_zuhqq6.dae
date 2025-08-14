@@ -1,0 +1,106 @@
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor/>
+    <created>2025-06-24T13:33:38.468362</created>
+    <modified>2025-06-24T13:33:38.468363</modified>
+    <unit name="meter" meter="1.0"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="effect___wheels_mini_Motor_inverted_Pendulum_silkscreen080_shape" name="effect___wheels_mini_Motor_inverted_Pendulum_silkscreen080_shape">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0.0 0.0 0.0 1.0</color>
+            </emission>
+            <ambient>
+              <color>0.0 0.0 0.0 1.0</color>
+            </ambient>
+            <diffuse>
+              <color>0.4470590054988861 0.4745100140571594 0.5019609928131104 1.0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 1.0</color>
+            </specular>
+            <shininess>
+              <float>0.0</float>
+            </shininess>
+            <reflective>
+              <color>0.0 0.0 0.0 1.0</color>
+            </reflective>
+            <reflectivity>
+              <float>0.0</float>
+            </reflectivity>
+            <transparent>
+              <color>0.0 0.0 0.0 1.0</color>
+            </transparent>
+            <transparency>
+              <float>1.0</float>
+            </transparency>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>0</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="geometry0" name="__wheels_mini_Motor_inverted_Pendulum_silkscreen080_shape">
+      <mesh>
+        <source id="cubeverts-array0">
+          <float_array count="102" id="cubeverts-array0-array">0.1432693 -0.09085191 0.001585 0.143147 -0.09087624 0.001585 0.1432147 -0.09089677 0.001585 0.1432624 -0.09078155 0.001585 0.1432141 -0.09073117 0.001585 0.1430435 -0.09072934 0.001585 0.1430854 -0.09080914 0.001585 0.1431798 -0.09066265 0.001585 0.1430184 -0.0906428 0.001585 0.143011 -0.09055299 0.001585 0.1431798 -0.09045997 0.001585 0.1430217 -0.09046351 0.001585 0.1430499 -0.09037795 0.001585 0.1432073 -0.09040056 0.001585 0.1430947 -0.09029974 0.001585 0.1432536 -0.09035427 0.001585 0.1431602 -0.09023628 0.001585 0.1432807 -0.09017822 0.001585 0.143313 -0.09032678 0.001585 0.1441465 -0.09093319 0.001585 0.1440823 -0.09094111 0.001585 0.1441194 -0.09094439 0.001585 0.1433979 -0.09017751 0.001585 0.1433784 -0.09032678 0.001585 0.1434929 -0.09036496 0.001585 0.1441672 -0.0909125 0.001585 0.1441784 -0.09088547 0.001585 0.1440518 -0.09092387 0.001585 0.1435751 -0.09023705 0.001585 0.1440298 -0.09068977 0.001585 0.1441798 -0.09025179 0.001585 0.1440313 -0.09023715 0.001585 0.1441465 -0.09018942 0.001585 0.1440761 -0.0901825 0.001585</float_array>
+          <technique_common>
+            <accessor count="34" source="#cubeverts-array0-array" stride="3">
+              <param type="float" name="X"/>
+              <param type="float" name="Y"/>
+              <param type="float" name="Z"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="cubenormals-array0">
+          <float_array count="96" id="cubenormals-array0-array">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor count="32" source="#cubenormals-array0-array" stride="3">
+              <param type="float" name="X"/>
+              <param type="float" name="Y"/>
+              <param type="float" name="Z"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="cubeverts-array0-vertices">
+          <input semantic="POSITION" source="#cubeverts-array0"/>
+        </vertices>
+        <triangles count="32" material="ref___wheels_mini_Motor_inverted_Pendulum_silkscreen080_shape">
+          <input offset="0" semantic="VERTEX" source="#cubeverts-array0-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#cubenormals-array0"/>
+          <p>0 0 1 0 2 0 3 1 1 1 0 1 4 2 5 2 6 2 4 3 6 3 1 3 4 4 1 4 3 4 7 5 8 5 5 5 7 6 9 6 8 6 7 7 5 7 4 7 10 8 11 8 9 8 10 9 12 9 11 9 10 10 9 10 7 10 13 11 14 11 12 11 13 12 12 12 10 12 15 13 14 13 13 13 16 14 14 14 15 14 17 15 15 15 18 15 17 16 16 16 15 16 19 17 20 17 21 17 22 18 18 18 23 18 22 19 23 19 24 19 22 20 17 20 18 20 25 21 20 21 19 21 26 22 27 22 20 22 26 23 20 23 25 23 28 24 22 24 24 24 29 25 27 25 26 25 29 26 28 26 24 26 30 27 31 27 29 27 30 28 29 28 26 28 32 29 33 29 31 29 32 30 31 30 30 30 24 31 27 31 29 31</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_materials>
+    <material id="mat___wheels_mini_Motor_inverted_Pendulum_silkscreen080_shape" name="__wheels_mini_Motor_inverted_Pendulum_silkscreen080_shape">
+      <instance_effect url="#effect___wheels_mini_Motor_inverted_Pendulum_silkscreen080_shape"/>
+    </material>
+  </library_materials>
+  <library_visual_scenes>
+    <visual_scene id="myscene">
+      <node id="node0" name="node0">
+        <instance_geometry url="#geometry0">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="ref___wheels_mini_Motor_inverted_Pendulum_silkscreen080_shape" target="#mat___wheels_mini_Motor_inverted_Pendulum_silkscreen080_shape"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#myscene"/>
+  </scene>
+</COLLADA>

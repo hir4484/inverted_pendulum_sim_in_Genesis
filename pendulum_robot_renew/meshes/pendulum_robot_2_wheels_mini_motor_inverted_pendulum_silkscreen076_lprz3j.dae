@@ -1,0 +1,106 @@
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor/>
+    <created>2025-06-24T13:33:38.456305</created>
+    <modified>2025-06-24T13:33:38.456306</modified>
+    <unit name="meter" meter="1.0"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="effect___wheels_mini_Motor_inverted_Pendulum_silkscreen076_shape" name="effect___wheels_mini_Motor_inverted_Pendulum_silkscreen076_shape">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0.0 0.0 0.0 1.0</color>
+            </emission>
+            <ambient>
+              <color>0.0 0.0 0.0 1.0</color>
+            </ambient>
+            <diffuse>
+              <color>0.4470590054988861 0.4745100140571594 0.5019609928131104 1.0</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 1.0</color>
+            </specular>
+            <shininess>
+              <float>0.0</float>
+            </shininess>
+            <reflective>
+              <color>0.0 0.0 0.0 1.0</color>
+            </reflective>
+            <reflectivity>
+              <float>0.0</float>
+            </reflectivity>
+            <transparent>
+              <color>0.0 0.0 0.0 1.0</color>
+            </transparent>
+            <transparency>
+              <float>1.0</float>
+            </transparency>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>0</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="geometry0" name="__wheels_mini_Motor_inverted_Pendulum_silkscreen076_shape">
+      <mesh>
+        <source id="cubeverts-array0">
+          <float_array count="126" id="cubeverts-array0-array">0.1463609 -0.09217451 0.001585 0.1463339 -0.09220157 0.001585 0.1463339 -0.09223984 0.001585 0.1463992 -0.09217451 0.001585 0.1464478 -0.0922177 0.001585 0.1463828 -0.09229415 0.001585 0.1464647 -0.09233762 0.001585 0.1465248 -0.09225307 0.001585 0.1465544 -0.09236097 0.001585 0.1466086 -0.09226519 0.001585 0.1466472 -0.09236295 0.001585 0.1466925 -0.09225307 0.001585 0.1467378 -0.09234344 0.001585 0.1467695 -0.0922177 0.001585 0.1468215 -0.09230352 0.001585 0.1468726 -0.09225606 0.001585 0.1467961 -0.09219109 0.001585 0.1469136 -0.09218165 0.001585 0.1468284 -0.09212341 0.001585 0.1465639 -0.09178105 0.001585 0.1465625 -0.09182079 0.001585 0.1465918 -0.0918483 0.001585 0.1469357 -0.09209962 0.001585 0.1468394 -0.09204928 0.001585 0.1469377 -0.09201469 0.001585 0.1468284 -0.09197514 0.001585 0.1463801 -0.09144689 0.001585 0.1463368 -0.0915219 0.001585 0.1463801 -0.0915469 0.001585 0.1463368 -0.09147189 0.001585 0.1467188 -0.09175166 0.001585 0.1467111 -0.09185165 0.001585 0.1469194 -0.09193173 0.001585 0.1467961 -0.09190746 0.001585 0.1467453 -0.09175694 0.001585 0.1467695 -0.09188084 0.001585 0.1468819 -0.09185548 0.001585 0.1468345 -0.0918044 0.001585 0.1467651 -0.0915469 0.001585 0.1468893 -0.09144967 0.001585 0.14692 -0.09151749 0.001585 0.1469215 -0.09147776 0.001585</float_array>
+          <technique_common>
+            <accessor count="42" source="#cubeverts-array0-array" stride="3">
+              <param type="float" name="X"/>
+              <param type="float" name="Y"/>
+              <param type="float" name="Z"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="cubenormals-array0">
+          <float_array count="120" id="cubenormals-array0-array">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor count="40" source="#cubenormals-array0-array" stride="3">
+              <param type="float" name="X"/>
+              <param type="float" name="Y"/>
+              <param type="float" name="Z"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="cubeverts-array0-vertices">
+          <input semantic="POSITION" source="#cubeverts-array0"/>
+        </vertices>
+        <triangles count="40" material="ref___wheels_mini_Motor_inverted_Pendulum_silkscreen076_shape">
+          <input offset="0" semantic="VERTEX" source="#cubeverts-array0-vertices"/>
+          <input offset="1" semantic="NORMAL" source="#cubenormals-array0"/>
+          <p>0 0 1 0 2 0 3 1 0 1 2 1 4 2 2 2 5 2 4 3 5 3 6 3 4 4 3 4 2 4 7 5 6 5 8 5 7 6 4 6 6 6 9 7 8 7 10 7 9 8 7 8 8 8 11 9 10 9 12 9 11 10 9 10 10 10 13 11 12 11 14 11 13 12 11 12 12 12 15 13 16 13 13 13 15 14 13 14 14 14 17 15 18 15 16 15 17 16 16 16 15 16 19 17 20 17 21 17 22 18 23 18 18 18 22 19 18 19 17 19 24 20 25 20 23 20 24 21 23 21 22 21 26 22 27 22 28 22 26 23 29 23 27 23 30 24 21 24 31 24 30 25 19 25 21 25 32 26 25 26 24 26 32 27 33 27 25 27 34 28 31 28 35 28 34 29 30 29 31 29 36 30 33 30 32 30 37 31 35 31 33 31 37 32 34 32 35 32 37 33 33 33 36 33 38 34 26 34 28 34 38 35 19 35 30 35 39 36 38 36 40 36 39 37 26 37 38 37 41 38 39 38 40 38 30 39 40 39 38 39</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_materials>
+    <material id="mat___wheels_mini_Motor_inverted_Pendulum_silkscreen076_shape" name="__wheels_mini_Motor_inverted_Pendulum_silkscreen076_shape">
+      <instance_effect url="#effect___wheels_mini_Motor_inverted_Pendulum_silkscreen076_shape"/>
+    </material>
+  </library_materials>
+  <library_visual_scenes>
+    <visual_scene id="myscene">
+      <node id="node0" name="node0">
+        <instance_geometry url="#geometry0">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="ref___wheels_mini_Motor_inverted_Pendulum_silkscreen076_shape" target="#mat___wheels_mini_Motor_inverted_Pendulum_silkscreen076_shape"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#myscene"/>
+  </scene>
+</COLLADA>
